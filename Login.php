@@ -26,8 +26,10 @@
       </div>
 
       <button type="submit" class="btn btn-primary">送出</button>
-      <a class="btn btn-primary" href="Register.php" role="button">註冊</a>
     </form>
+    <div style="line-height:50px">
+      <a href="Register.php">還沒有帳號？現在就註冊！</a>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

@@ -1,5 +1,14 @@
 <?php
 echo $_POST['username'];
+// Initialize the session
+//session_start();
+ 
+// Check if the user is already logged in, if yes then redirect him to welcome page
+//if(true){
+//  echo "123";
+//  header("location: Login.php");
+//  exit;
+//}
 ?>
 <!doctype html>
 <html lang="en">
@@ -52,7 +61,7 @@ echo $_POST['username'];
                 <label class="form-label">體重</label>
                 <input type="text" class="form-control" name="width">
             </div>
-            <button type="submit" class="btn btn-primary">送出</button>
+            <button type="submit" class="btn btn-primary" ahref="Login.php">送出</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
