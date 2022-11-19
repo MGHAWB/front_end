@@ -15,17 +15,18 @@
   <div class="container-sm">
     <form action="./Login.php" method="post">
       <div class="mb-3">
-        <label class="form-label">UserName</label>
+        <label class="form-label">使用者名稱</label>
         <input type="text" class="form-control" name="username">
         <div class="form-text">Must be 8-20 characters long.</div>
       </div>
       <div class="mb-3">
-        <label class="form-label">Password</label>
+        <label class="form-label">密碼</label>
         <input type="password" class="form-control" name="password">
         <div class="form-text">Must be 8-20 characters long.</div>
       </div>
 
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="submit" class="btn btn-primary">送出</button>
+      <a class="btn btn-primary" href="Register.php" role="button">註冊</a>
     </form>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
